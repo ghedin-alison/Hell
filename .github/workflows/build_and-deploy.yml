@@ -34,4 +34,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/conexoes-magalu:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/conexoes-magalu:latest .
